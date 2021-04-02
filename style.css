@@ -1,0 +1,1029 @@
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-Light.eot");
+    src: url("./assets/fonts/SKODANext-Light.woff2") format("woff2"), url("./assets/fonts/SKODANext-Light.woff") format("woff"), url("./assets/fonts/SKODANext-Light.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-Light.otf") format("opentype"), url("./assets/fonts/SKODANext-Light.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-LightItalic.eot");
+    src: url("./assets/fonts/SKODANext-LightItalic.woff2") format("woff2"), url("./assets/fonts/SKODANext-LightItalic.woff") format("woff"), url("./assets/fonts/SKODANext-LightItalic.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-LightItalic.otf") format("opentype"), url("./assets/fonts/SKODANext-LightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-Regular.eot");
+    src: url("./assets/fonts/SKODANext-Regular.woff2") format("woff2"), url("./assets/fonts/SKODANext-Regular.woff") format("woff"), url("./assets/fonts/SKODANext-Regular.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-Regular.otf") format("opentype"), url("./assets/fonts/SKODANext-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-RegularItalic.eot");
+    src: url("./assets/fonts/SKODANext-RegularItalic.woff2") format("woff2"), url("./assets/fonts/SKODANext-RegularItalic.woff") format("woff"), url("./assets/fonts/SKODANext-RegularItalic.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-RegularItalic.otf") format("opentype"), url("./assets/fonts/SKODANext-RegularItalic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-Regular.eot");
+    src: url("./assets/fonts/SKODANext-Regular.woff2") format("woff2"), url("./assets/fonts/SKODANext-Regular.woff") format("woff"), url("./assets/fonts/SKODANext-Regular.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-Regular.otf") format("opentype"), url("./assets/fonts/SKODANext-Regular.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-RegularItalic.eot");
+    src: url("./assets/fonts/SKODANext-RegularItalic.woff2") format("woff2"), url("./assets/fonts/SKODANext-RegularItalic.woff") format("woff"), url("./assets/fonts/SKODANext-RegularItalic.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-RegularItalic.otf") format("opentype"), url("./assets/fonts/SKODANext-RegularItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-Bold.eot");
+    src: url("./assets/fonts/SKODANext-Bold.woff2") format("woff2"), url("./assets/fonts/SKODANext-Bold.woff") format("woff"), url("./assets/fonts/SKODANext-Bold.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-Bold.otf") format("opentype"), url("./assets/fonts/SKODANext-Bold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-BoldItalic.eot");
+    src: url("./assets/fonts/SKODANext-BoldItalic.woff2") format("woff2"), url("./assets/fonts/SKODANext-BoldItalic.woff") format("woff"), url("./assets/fonts/SKODANext-BoldItalic.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-BoldItalic.otf") format("opentype"), url("./assets/fonts/SKODANext-BoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-Black.eot");
+    src: url("./assets/fonts/SKODANext-Black.woff2") format("woff2"), url("./assets/fonts/SKODANext-Black.woff") format("woff"), url("./assets/fonts/SKODANext-Black.eot#iefix") format("embedded-opentype"), url("./assets/fonts/SKODANext-Black.otf") format("opentype"), url("./assets/fonts/SKODANext-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal
+}
+@font-face {
+    font-family: "SkodaNext";
+    src: url("./assets/fonts/SKODANext-BlackItalic.eot");
+    src: url("./assets/fonts/SKODANext-BlackItalic.woff2") format("woff2"), url("./assets/fonts/SKODANext-BlackItalic.woff") format("woff"), url("./assets/fonts/SKODANext-BlackItalic.eot#iefix") format("embedded-opentype"), url("./assets/SKODANext-BlackItalic.otf") format("opentype"), url("./assets/fonts/SKODANext-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic
+}
+@font-face {
+    font-family: "SkodaIcon";
+    src: url("./assets/fonts/skoda-icons-font.eot");
+    src: url("./assets/fonts/skoda-icons-font.svg") format("svg"), url("./assets/fonts/skoda-icons-font.woff") format("woff"), url("./assets/fonts/skoda-icons-font.eot#iefix") format("embedded-opentype"), url("./assets/fonts/skoda-icons-font.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+* {
+    box-sizing: border-box
+}
+body {
+    font: 400 14px "SkodaNext"
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.btn-sa-primary {
+    color: #fff;
+    background-color: #4ba82e;
+    border-color: #4ba82e;
+    font-weight: 800;
+    padding: 10px 20px;
+    min-width: 110px;
+    font-size: 14px
+}
+.btn-sa-primary:hover {
+    color: #fff;
+    background-color: #377220;
+    border-color: #377220
+}
+.btn-sa-common-inverted {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 14px
+}
+.btn-sa-common-inverted:hover,
+.btn-sa-common-inverted:active,
+.btn-sa-common-inverted:focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #000
+}
+a {
+    text-decoration: none;
+    color: #000
+}
+a:hover {
+    color: #4ba82e
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0
+}
+ul,
+ol {
+    list-style-type: none
+}
+.icon {
+    font-family: "SkodaIcon";
+    font-style: normal
+}
+.icon-arrow-medium-left::before {
+    content: "j"
+}
+.icon-arrow-small-right::before {
+    content: "o"
+}
+.icon.icon-arrow-medium-down::before {
+    content: "i"
+}
+.facebook::before {
+    content: "1"
+}
+.youtube::before {
+    content: "4"
+}
+.instagram::before {
+    content: "2"
+}
+.hidden {
+    display: none
+}
+.text-center {
+    text-align: center
+}
+.text-uppercase {
+    text-transform: uppercase
+}
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 10px
+}
+.row {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap
+}
+div[class^=col-] {
+    padding: 0 10px
+}
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%
+}
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%
+}
+.readmore {
+    background-color: transparent;
+    padding: 0;
+    color: #4ba82e;
+    border: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+    width: 100%
+}
+.readmore.hidden {
+    display: none
+}
+.readmore:focus {
+    outline: none;
+    box-shadow: none
+}
+:target {
+    color: #4ba82e
+}
+@media screen and(min-width: 650px) {
+    .container {
+        max-width: 840px
+    }
+    .col-sm-3 {
+        max-width: 25%;
+        flex: 0 0 25%
+    }
+    .col-sm-6 {
+        max-width: 50%;
+        flex: 0 0 50%
+    }
+}
+.page-skoda {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: relative
+}
+.page-skoda.overflow-active {
+    overflow: hidden;
+    height: 100vh
+}
+.main-header {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff
+}
+.main-header.active .main-navbar__content {
+    box-shadow: none
+}
+.main-navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0
+}
+.main-navbar__content {
+    min-height: 50px;
+    margin: 0 -15px;
+    position: relative;
+    z-index: 99;
+    padding-left: 30px;
+    padding-right: 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 0 #b4b4b4;
+    border-bottom: 1px solid #ddd
+}
+@media screen and(min-width: 650px) {
+    .main-navbar__content {
+        margin: 0;
+        padding-right: 0;
+        padding-left: 15px
+    }
+}
+.main-navbar__nav {
+    display: flex;
+    align-items: center
+}
+.main-navbar__links {
+    padding: 14px;
+    font-size: 16px
+}
+.main-navbar__hamburger-menu {
+    width: 50px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    cursor: pointer;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.main-navbar__hamburger-menu .menu-stripe {
+    display: block;
+    width: 30%;
+    margin: 2px auto 1px;
+    height: 2px;
+    background: #4ba82e;
+    position: relative
+}
+.main-navbar__menu {
+
+    overflow: auto;
+    height: calc(100vh - 50px);
+    background-color: #f8f8f8;
+}
+.main-navbar__menu .nav-list:last-child {
+    margin-bottom: 40px
+}
+.main-navbar__menu .nav-list__title {
+    font: 400 14px "SkodaNext";
+    display: block;
+    padding: 25px 0 25px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    cursor: pointer;
+    background-color:#ffffff;
+}
+.main-navbar__menu .nav-list__title .icon {
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    font-size: 24px;
+    color: #000
+}
+.main-navbar__menu .nav-list__items {
+    padding: 50px 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: calc(100vh - 50px);
+    background-color: #f0f0f0;
+    z-index: 1;
+    overflow: auto
+}
+.main-navbar__menu .nav-list__items .list{
+    background-color: #ffffff;
+    margin:0 -30px;
+    border-bottom: 1px solid #ddd;
+}
+.main-navbar__menu .nav-list__items .list .nav-link {
+    display: block;
+    padding:18px 20px;
+    color:#4ba82e;
+    border-top:1px solid #e6e6e6;
+}
+.main-navbar__menu .nav-list__items .list--icon {
+    border-top: 1px solid #ddd;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-top: 30px;
+    margin-bottom: 25px
+}
+.main-navbar__menu .nav-list__items .list--icon .nav-link {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    padding: 0 20px;
+    margin-bottom: 18px
+}
+.main-navbar__menu .nav-list__items .list--icon .nav-link .icon {
+    display: block;
+    margin-right: 12px
+}
+.main-navbar__menu .list-header {
+    background-color: #f8f8f8;
+    color: #000;
+    font-size: 18px;
+    padding: 15px 0;
+    font-weight: 400;
+    margin-left: -30px;
+    margin-right: -30px;
+    text-align: center;
+    
+    cursor: pointer;
+    position: relative
+}
+.main-navbar__menu .list-header .icon {
+    position: absolute;
+    top: 0;
+    background-color: #ddd;
+    min-height: 51px;
+    width: 50px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.main-navbar__menu .nav-list-with-icon {
+    padding: 15px 0
+}
+.main-navbar__menu .nav-list-with-icon .list a {
+    padding: 19px 60px;
+    position: relative;
+    color: #4ba82e;
+    font-weight: 800;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;
+}
+.main-navbar__menu .nav-list-with-icon .list a:hover {
+    color: #377220
+}
+.main-navbar__menu .nav-list-with-icon .list a .icon {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    height:99%;
+    width:25px;
+}
+.hero-banner {
+    position: relative
+}
+.hero-banner .hero-image .image {
+    height: calc(100vh - 50px)
+}
+.hero-banner .hero-image img {
+    object-fit: cover;
+    object-position: center
+}
+.hero-banner .hero-text {
+    position: absolute;
+    margin: 24px 20px;
+    top: 0;
+    left: 0
+}
+.hero-banner .hero-text h1 {
+    font: 900 36px / 40px "SkodaNext";
+    text-transform: uppercase
+}
+.hero-banner .hero-button {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right:0;
+    margin:0 auto;
+    text-align: center;
+
+}
+.hero-banner .hero-button .button {
+    background-color: #4ba82e;
+    border: 1px solid #4ba82e;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 23px;
+    min-width:250px;    
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.hero-banner .hero-button .button:hover {
+    background-color: #377220;
+    border-color: #377220
+}
+.section-quote {
+    padding: 27px 40px 50px
+}
+.section-quote p {
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 22px;
+    margin-top:22px;
+    font-weight: 300
+}
+sup small{
+    font-weight:400;
+    font-size:12px;
+}
+@media screen and(min-width: 768px) {
+    .section-quote p p {
+        font-size: 24px
+    }
+}
+.section-quote .quote-content {
+    margin: 0 0 22px
+}
+.section-quote .quote-content.quote-chopped {
+    max-height: 240px;
+    overflow: hidden
+}
+.section-quote .quote-content.quote-unchopped {
+    max-height: 100%
+}
+@media screen and(min-width: 768px) {
+    .section-quote .quote-content.quote-chopped {
+        max-height: 100%
+    }
+}
+.section-quote .quote-readmore {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 33px;
+    font-family: "SkodaNext"
+}
+@media screen and(min-width: 768px) {
+    .section-quote .quote-readmore {
+        display: none
+    }
+}
+.section-image-text .container {
+    max-width: 100%
+}
+.section-image-text .item {
+    margin: 0 -10px 50px
+}
+.section-image-text .text {
+    padding: 30px 20px 5px;
+    line-height: 25px
+}
+.section-image-text .text-subheader {
+    font: 900 16px "SkodaNext";
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+.section-image-text .text-header {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase
+}
+.section-image-text .text-content {
+    font-size: 16px;
+    margin-bottom: 50px
+}
+.section-image-text .button {
+    cursor: pointer;
+    padding: 19px 0;
+    text-transform: uppercase;
+    width: 65%;
+    margin: 20px 0;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4ba82e;
+    border: 1px solid #4ba82e;
+    border-radius: 4px
+}
+.section-image-text .button:hover {
+    background-color: #377220;
+    border-color: #377220
+}
+.section-image-text .button-ghost {
+    border-color: #000;
+    background-color: transparent;
+    color: #000
+}
+.section-image-text .button-ghost:hover {
+    background-color: #ececec
+}
+.section-news-horizontal {
+    margin-bottom: 35px
+}
+.section-news-horizontal .section-header {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 34px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.section-news-horizontal .news-wrapper {
+    -ms-scroll-snap-type: x proximity;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 7.5px;
+    margin-bottom: -2.5px
+}
+.section-news-horizontal .news-wrapper::before {
+    content: "";
+
+}
+/* @media screen and(max-width: 768px) {
+    .section-news-horizontal .news-wrapper {
+        display: grid;
+        grid-gap: 5px;
+        grid-auto-flow: column;
+        grid-template-rows: minmax(150px, 1fr);
+        overflow-x: scroll;
+        overflow-y: hidden
+    }
+} */
+.section-news-horizontal .news-item {
+    /* margin-right: 10px; */
+    padding: 10px 5px 20px;
+    -ms-flex-line-pack: start;
+
+}
+.section-news-horizontal .news-item .image,
+.section-news-horizontal .news-item .image .img {
+    width: 100%;
+    min-height:150px;
+}
+
+.section-news-horizontal .news-item .image img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+@media screen and(max-width: 768px) {
+    .section-news-horizontal .news-item .image {
+        min-width: 80vw
+    }
+}
+.section-news-horizontal .news-item .text {
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+.section-news-horizontal .news-item .text p {
+    margin: 10px 0 15px;
+    font-size: 16px
+}
+.section-news-horizontal .news-item .text-header {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase
+}
+.section-news-horizontal .news-item .text-link {
+    color: #3e3e3e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px
+}
+.section-news-horizontal .news-item .text-link .chevron {
+    width: 20px;
+    height: 20px
+}
+.section-news-horizontal .news-item .text-link .chevron img {
+    height: 11px
+}
+@media screen and(max-width: 768px) {
+    .section-news-horizontal .news-item {
+        display: grid;
+        grid-gap: 10px 0;
+        align-content: start
+    }
+    .section-news-horizontal .news-item > * {
+        grid-column: 2/-2
+    }
+}
+.section-news-horizontal .disclaimer {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 15px 40px
+}
+.section-news-horizontal .disclaimer-chopped {
+    max-height: 110px;
+    overflow: hidden
+}
+.section-news-horizontal .disclaimer-unchopped {
+    max-height: 100%
+}
+@media screen and(min-width: 768px) {
+    .section-news-horizontal .disclaimer {
+        display: block
+    }
+    .section-news-horizontal .disclaimer-chopped {
+        max-height: 100%
+    }
+}
+@media screen and(min-width: 768px) {
+    .section-news-horizontal .section-header {
+        text-align: center
+    }
+    .section-news-horizontal .news-wrapper {
+        display: flex
+    }
+    .section-news-horizontal .news-item {
+        margin-right: 20px;
+        max-width: 33.33%;
+        flex: 0 0 33.33%
+    }
+    .section-news-horizontal .readmore {
+        display: none
+    }
+}
+.section-note .note-content {
+    padding: 20px 0
+}
+.section-note p small {
+    font-size: 12px;
+    line-height: 1.5;
+    display: block
+}
+.section-note p a {
+    color: #4ba82e
+}
+.section-note p a:hover {
+    color: #377220;
+    text-decoration: underline
+}
+.section-tools .item {
+    text-align: center;
+    padding: 0 5px
+}
+.section-tools .container {
+    max-width: 100%
+}
+.section-tools .image {
+    margin: 30px auto 20px
+}
+.section-tools .text {
+    min-height: 36px;
+    text-transform: uppercase
+}
+.section-tools h3 {
+    font-size: 14px
+}
+.section-tools h4 {
+    font-weight: 800;
+    color: #4ba82e;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px
+}
+.section-tools p {
+    text-align: center;
+    text-transform: initial;
+    font: 400 14px / 24px "SkodaNext";
+    margin-top: 25px;
+    display: none
+}
+.section-tools .readmore {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-transform: initial;
+    font-weight: 800;
+    color: #4ba82e;
+    display: none
+}
+.section-tools .call-button {
+    margin: 10px 0;
+    padding: 20px 0 10px
+}
+.section-tools .call-button .btn {
+    padding-left: 50px;
+    font-weight: 800;
+    border-radius: 2px;
+    position: relative
+}
+.section-tools .call-button .btn::before {
+    content: "I";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    left: 10px;
+    font-family: "SkodaIcon";
+    font-size: 30px
+}
+@media screen and(min-width: 650px) {
+    .section-tools p,
+    .section-tools .readmore {
+        display: block
+    }
+}
+.find-out-more .title {
+    font: 14px "SkodaNext";
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    line-height: 24px;
+    border-top: 1px solid #787878;
+    background-color: #f0f0f0
+}
+.find-out-more .title:focus {
+    outline: none
+}
+.find-out-more .title .icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px
+}
+.find-out-more .title[aria-expanded=true] .icon {
+    transform: rotate(180deg)
+}
+.find-out-more h3 {
+    font-weight: 800;
+    font-size: 14px;
+    width: 100%;
+    margin: 0 0 5px
+}
+.find-out-more .list {
+    padding: 0 10px 15px
+}
+.find-out-more .list li {
+    padding: 3px 0
+}
+.find-out-more .list li a {
+    line-height: 24px;
+    font-size: 14px
+}
+.find-out-more .list li a:hover {
+    text-decoration: underline;
+    color: #000
+}
+.find-out-more .section-content {
+    padding: 20px 10px;
+    background-color: #f0f0f0
+}
+@media screen and(min-width: 650px) {
+    .find-out-more .section-content .container {
+        padding: 0
+    }
+}
+.footer {
+    background-color: #000;
+    display: block;
+    color: #fff;
+    padding: 12px;
+    text-align: center
+}
+.footer::after {
+    clear: both;
+    display: table;
+    width: 100%;
+    content: ""
+}
+.social-icons {
+    text-align: center;
+    border-bottom: 1px solid #787878;
+    margin-bottom: 6px;
+    padding-bottom: 6px
+}
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 8px
+}
+@media screen and(min-width: 650px) {
+    .social-icons {
+        text-align: right;
+        margin-bottom: 0;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 14px
+    }
+}
+.footer-links {
+    padding-top: 10px
+}
+.footer-links a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    line-height: 24px
+}
+.footer-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    height: 1px;
+    opacity: 0;
+    background-color: #4ba82e
+}
+.footer-links a:hover::after {
+    opacity: 1
+}
+.footer-copyright {
+    font-size: 12px;
+    color: #e6e6e6;
+    margin: 0;
+    line-height: 24px
+}
+@media screen and(min-width: 650px) {
+    .footer {
+        padding: 10px 0;
+    }
+    .footer .container {
+        max-width: 100%;
+        padding: 0
+    }
+    .footer-copyright {
+        float: left;
+        padding-left: 10px;
+        padding-top: 10px
+    }
+    .footer-links {
+        float: right
+    }
+    .footer-links li {
+        display: inline-block;
+        padding: 0 20px
+    }
+}
+.up-btn {
+    background: #000;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer
+}
+.up-btn::before {
+    color: #fff;
+    font: 50px "SkodaIcon";
+    content: "p";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center
+}
+.news-wrapper .i-amphtml-base-carousel-arrows .i-amphtml-base-carousel-arrow.disabled{
+    display: none;
+}
+.main-navbar__dropdown{
+    position: fixed;
+    top:50px;
+    left:0;
+    right:0;
+    z-index:1;
+    background-color: #fff;
+}
+.our-range-content{
+    padding:30px 0;
+    height: calc(100vh - 50px);
+    overflow: auto;
+}
+.our-range-content h2{
+    padding: 20px 30px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.range-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.range-item li{
+    max-width: 50%;
+    flex:0 0 50%;
+    padding:20px 10px;
+    border-top:1px solid #f0f0f0;
+}
+.range-item li:first-child,
+.range-item li:nth-child(2){
+    border-top:0;
+}
+.range-item .item .image{
+    display: block;
+    max-width:95%;
+    margin:0 auto 10px;
+}
+.range-item .item span{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 900;
+    display: block;
+}
+.our-range-content .button{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:40px;
+}
+.our-range-content .button a{
+    color: #fff;
+    background-color: #4ba82e;
+    border-color: #4ba82e;
+    padding: 8px 20px;
+    min-width: 110px;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 800;
+    padding: 13px 25px;
+    border-radius: 2px;
+    font-weight: 800;
+    padding: 13px 25px;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+}
+.our-range-content .button a:hover{
+    color: #fff;
+    background-color: #377220;
+    border-color: #377220;
+}
